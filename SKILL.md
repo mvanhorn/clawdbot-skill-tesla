@@ -92,6 +92,13 @@ python3 {baseDir}/scripts/tesla.py wake
 Uses the unofficial Tesla Owner API documented at:
 https://tesla-api.timdorr.com
 
+## Troubleshooting
+
+**Auth not working?**
+- Try opening the auth URL on your **phone browser** instead of desktop
+- Make sure you're logged into the correct Tesla account
+- Clear cookies and try again
+
 ## Privacy & Security
 
 - Credentials stored locally only
