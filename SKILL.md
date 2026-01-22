@@ -2,7 +2,7 @@
 name: tesla
 description: Control your Tesla vehicles - lock/unlock, climate, location, charge status, and more. Supports multiple vehicles.
 homepage: https://tesla-api.timdorr.com
-metadata: {"clawdbot":{"emoji":"🚗","requires":{"env":["TESLA_EMAIL"]}}}
+metadata: {"clawdbot":{"emoji":"🚗"}}
 ---
 
 # Tesla
