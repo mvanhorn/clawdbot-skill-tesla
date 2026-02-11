@@ -5,7 +5,7 @@ homepage: https://tesla-api.timdorr.com
 user-invocable: true
 disable-model-invocation: true
 metadata:
-  openclaw:
+  clawdbot:
     emoji: "🚗"
     primaryEnv: TESLA_EMAIL
     requires:
