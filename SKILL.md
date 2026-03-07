@@ -7,7 +7,7 @@ license: MIT
 repository: https://github.com/mvanhorn/clawdbot-skill-tesla
 homepage: https://developer.tesla.com/docs/fleet-api
 metadata:
-  clawdbot:
+  openclaw:
     emoji: "🚗"
     requires:
       env:
@@ -22,7 +22,7 @@ metadata:
 
 # Tesla
 
-Control your Tesla vehicles from Clawdbot. Supports multiple cars on one account.
+Control your Tesla vehicles from OpenClaw. Supports multiple cars on one account.
 
 > **Fleet API Update (2026):** Tesla is deprecating direct `/command` REST calls. Vehicles on firmware 2024.26+
 > require the Vehicle Command Protocol (VCP) SDK. The `tesla-fleet-api` Python package (v1.x+) handles this automatically.
