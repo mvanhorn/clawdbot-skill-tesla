@@ -1,13 +1,31 @@
 ---
 name: tesla
-description: Control your Tesla vehicles - lock/unlock, climate, location, charge status, and more. Supports multiple vehicles.
-homepage: https://tesla-api.timdorr.com
-metadata: {"clawdbot":{"emoji":"🚗","requires":{"env":["TESLA_EMAIL"]}}}
+version: "1.1.0"
+description: Control your Tesla vehicles — lock/unlock, climate, location, charge status, and more. Supports multiple vehicles via Tesla Fleet API.
+author: mvanhorn
+license: MIT
+repository: https://github.com/mvanhorn/clawdbot-skill-tesla
+homepage: https://developer.tesla.com/docs/fleet-api
+metadata:
+  clawdbot:
+    emoji: "🚗"
+    requires:
+      env:
+        - TESLA_EMAIL
+    primaryEnv: TESLA_EMAIL
+    tags:
+      - tesla
+      - vehicle
+      - iot
+      - fleet-api
 ---
 
 # Tesla
 
 Control your Tesla vehicles from Clawdbot. Supports multiple cars on one account.
+
+> **Fleet API Update (2026):** Tesla is deprecating direct `/command` REST calls. Vehicles on firmware 2024.26+
+> require the Vehicle Command Protocol (VCP) SDK. The `tesla-fleet-api` Python package (v1.x+) handles this automatically.
 
 ## Setup
 
